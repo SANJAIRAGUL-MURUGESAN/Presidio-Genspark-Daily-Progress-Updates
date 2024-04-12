@@ -1,78 +1,89 @@
-﻿//namespace FirstApp
-//{
-//    internal class Program
-//    {
-//        static int Add(int a,int b)
-//        {
-//            checked{
-//                int result = a + b;
-//                return result;
-//            }
-//            //return (a + b);
-//        }
-//        static int TakeNumber()
-//        {
-//            Console.WriteLine("Please Enter the Number :");
-//            return Convert.ToInt32(Console.ReadLine());
-//        }
-//        static void Print(int Sum)
-//        {
-//            Console.WriteLine("The sum is " + Sum);
-//        }
-//        static void calculate()
-//        {
-//            int num1, num2; 
-//            num1 = TakeNumber();
-//            num2 = TakeNumber();
-//            int sum = Add(num1, num2);
-//            Print(sum);
-//        }
+﻿using System.ComponentModel.DataAnnotations;
+using UnderstandingBasicsApp.Models;
 
-//        //Out Paramter
-//        static bool ConvertName(string name,out string msg)
-//        {
-//            msg = "";
-//            if(name is null)
-//            {
-//                return false;
-//            }
-//            msg = "Welcome " + name + " !!!";
-//            return true;
-//        }
-//        ////static void Main(string[] args)
-//        ////{
-//            //Console.WriteLine("Hello, World!");
-//            //int num1 = 10;
-//            //Console.WriteLine("The Number is " + num1);
-//            ////Console.WriteLine($"The Number is {num1}");
-//            //string s1;
-//            //Console.WriteLine("Enter Your Name");
-//            //s1 = Console.ReadLine();
-//            //Console.WriteLine($"Welcome {s1}!");
-//            //int num2;
-//            //Console.WriteLine($"Enter your First Number {s1}");
-//            //num2 = int.Parse(Console.ReadLine());
-//            //num2++;
-//            //Console.WriteLine("The incremented Number is " + num2);
-//            //string s2 = null;
-//            //int num3 = Convert.ToInt32(s2);
-//            //num3++;
-//            //Console.WriteLine("The second incremented number is " + num3);
-//            //float fnum1;
-//            //int inum2;
-//            //Console.WriteLine("Please Enter a Number ");
-//            //fnum1 = Convert.ToSingle(Console.ReadLine()); // Unboxing
-//            //Console.WriteLine("The Number is " + fnum1);
-//            //inum2 = (int)fnum1;
-//            //Console.WriteLine("The Number is " + inum2);
-//            //calculate();
-//            string name = "Sanjai";
-//            string message;
-//            bool result = ConvertName(name,out message);
-//            if(result is true)
-//            {
-//                Console.WriteLine(message);
-//            }
-//        }
-//    }
-//}
+namespace UnderstandingBasicsApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Employee employee = new Employee();
+            Arrays array = new Arrays();
+
+            employee.Id = 101;
+            employee.Name = "Sanjai Ragul";
+            employee.Salary = 25000;
+            employee.DateOfBirth = new DateTime(2000, 12, 25);
+            employee.Email = "sanjairagul@abc.com";
+
+            Employee employee2 = new Employee()
+            {
+                Name = "Ramu",
+                Salary = 25000,
+                DateOfBirth = new DateTime(2000, 12, 24),
+                Email = "ramu@abc.com"
+            };
+
+            Employee employee3 = new Employee(103, "Somu", 123423, new DateTime(2000, 12, 26), "somu@abc.com");
+
+            Console.WriteLine(employee3.Id + " " + employee3.Name);
+            Console.WriteLine(employee2.Name);
+
+            array.ArrayFunction();
+
+            Employee[] employees = new Employee[3];
+            for (int i = 0; i < employees.Length; i++)
+            {
+                employees[i] = employee.CreateEmployeeByTakingDetailsFromConsole(101 + i);
+            }
+
+            // ASSIGNMENT - DOCTOR - 12.04.2024
+
+            Doctors doctor = new Doctors();
+
+            Doctors[] doctors = new Doctors[2];
+
+            // For Loop to get input about doctor details
+
+            for(int i = 0; i < doctors.Length; i++)
+            {
+                doctors[i] = doctor.CreateDoctorByTakingDetailsFromConsole(101 + i);
+            }
+
+            // For Loop to print Doctor Details
+
+            for (int i = 0; i < doctors.Length; i++)
+            {
+                doctors[i].PrintDoctorDetails();
+            }
+
+            //To Get the Speciality from User to Provide doctors
+            Console.WriteLine("Please Enter your required Speciality : ");
+            string DoctorSpeciality = Console.ReadLine();
+            int Flag = 0;
+
+            Console.WriteLine("Here We go with Doctors matching provided Speciality : ");
+
+            //To find out the doctors matching the provided speciality
+            for (int i = 0; i < doctors.Length; i++)
+            {
+                int count = doctors[i].FindDoctorByProvidedSpeciality(DoctorSpeciality);
+                if(count > 0)
+                {
+                    Flag = 1;
+                }
+            }
+
+            if (Flag == 0)
+            {
+                Console.WriteLine("Sorry! We cant you no doctors matching your speciality requirement!");
+            }
+
+            // To find a Car Nummber is Valid or Not
+            ValidCar validcar = new ValidCar();
+            validcar.IsValidCar();
+
+
+        }
+    }
+}
