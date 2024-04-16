@@ -91,9 +91,9 @@ namespace EmployeeRequestTrackerModelLibrary
 
         public void DetailsShowcase()
         {
+            Result result = new Result();
             for (int i = 0; i < AccEmployees.Length; i++)
             {
-                Result result = new Result();
                 result.ResultDetails(AccEmployees[i], AccEmployees[i].ServiceCompleted, AccEmployees[i].EmployeeBasicSalary);
             }
         }
