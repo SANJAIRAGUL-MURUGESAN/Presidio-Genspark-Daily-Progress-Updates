@@ -1,0 +1,11 @@
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\bin\Debug\net6.0\EmployeeRequestTrackerModelLibrary.deps.json
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\bin\Debug\net6.0\EmployeeRequestTrackerModelLibrary.dll
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\bin\Debug\net6.0\EmployeeRequestTrackerModelLibrary.pdb
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\EmployeeRequestTrackerModelLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\EmployeeRequestTrackerModelLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\EmployeeRequestTrackerModelLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\EmployeeRequestTrackerModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\EmployeeRequestTrackerModelLibrary.dll
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\refint\EmployeeRequestTrackerModelLibrary.dll
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\EmployeeRequestTrackerModelLibrary.pdb
+C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 6 - 16.04.2024\EmployeeRequestTrackerApp\EmployeeRequestTrackerModelLibrary\obj\Debug\net6.0\ref\EmployeeRequestTrackerModelLibrary.dll
