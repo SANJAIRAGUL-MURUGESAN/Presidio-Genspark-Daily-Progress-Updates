@@ -106,9 +106,9 @@ namespace EmployeeRequestTrackerModelLibrary
 
         public void DetailsShowcase()
         {
+            Result result = new Result();
             for(int i = 0; i < CtsEmployees.Length; i++)
             {
-                Result result = new Result();
                 result.ResultDetails(CtsEmployees[i], CtsEmployees[i].ServiceCompleted, CtsEmployees[i].EmployeeBasicSalary);
             }
         }
