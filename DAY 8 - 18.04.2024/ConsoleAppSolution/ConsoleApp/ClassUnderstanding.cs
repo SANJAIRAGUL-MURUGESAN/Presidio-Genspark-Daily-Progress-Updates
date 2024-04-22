@@ -22,5 +22,6 @@ namespace ConsoleApp
             CustomerFirstName = Customerfirstname;
             CustomerLastName = Customerlastname;
         }
+        Console.WriteLine('HElo");
     }
 }
