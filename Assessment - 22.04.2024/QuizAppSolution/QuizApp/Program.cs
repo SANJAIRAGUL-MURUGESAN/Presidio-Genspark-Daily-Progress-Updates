@@ -16,7 +16,6 @@ namespace QuizApp
             Console.WriteLine($"3. Take Quiz");
             Console.WriteLine($"4. Edit Quiz");
             Console.WriteLine($"5. Delete Quiz");
-            Console.WriteLine($"6. Add User");
             QuizFrontend quizfrontend = new QuizFrontend();
             while (true)
             {
