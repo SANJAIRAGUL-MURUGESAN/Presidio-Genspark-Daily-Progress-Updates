@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.626168224299065" branch-rate="0.511363636363636" lines-covered="402" lines-valid="642" branches-covered="45" branches-valid="88" complexity="187" version="0" timestamp="1713890467">
+<coverage line-rate="0.626168224299065" branch-rate="0.511363636363636" lines-covered="402" lines-valid="642" branches-covered="45" branches-valid="88" complexity="187" version="0" timestamp="1713952852">
   <sources>
     <source>C:\Users\VC\</source>
   </sources>
   <packages>
     <package name="ClinicTrackerBLLibrary" line-rate="1" branch-rate="1" complexity="33">
       <classes>
-        <class name="ClinicAppointmentBLLibrary.DoctorBusinessLogic" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLLibrary\DoctorBusinessLogic.cs" line-rate="1" branch-rate="1" complexity="11">
+        <class name="ClinicAppointmentBLLibrary.DoctorBusinessLogic" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLLibrary\DoctorBusinessLogic.cs" line-rate="1" branch-rate="1" complexity="11">
           <methods>
             <method name="ChangeDoctorExperience" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -127,7 +127,7 @@
             <line number="80" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLLibrary.AppointmentBusninessLogic" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLLibrary\AppointmentBusninessLogic.cs" line-rate="1" branch-rate="1" complexity="7">
+        <class name="ClinicTrackerBLLibrary.AppointmentBusninessLogic" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLLibrary\AppointmentBusninessLogic.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="ChangeAppointmentDate" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -207,7 +207,7 @@
             <line number="63" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLLibrary.AppointmentNotFoundException" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLLibrary\AppointmentNotFoundException.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="ClinicTrackerBLLibrary.AppointmentNotFoundException" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLLibrary\AppointmentNotFoundException.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -231,7 +231,7 @@
             <line number="17" hits="6" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLLibrary.DoctorNotFoundException" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLLibrary\DoctorNotFoundException.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="ClinicTrackerBLLibrary.DoctorNotFoundException" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLLibrary\DoctorNotFoundException.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -255,7 +255,7 @@
             <line number="17" hits="10" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLLibrary.PatientBusinessLogic" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLLibrary\PatientBusinessLogic.cs" line-rate="1" branch-rate="1" complexity="9">
+        <class name="ClinicTrackerBLLibrary.PatientBusinessLogic" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLLibrary\PatientBusinessLogic.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
             <method name="ChangeMajorDisease" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -353,7 +353,7 @@
             <line number="75" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLLibrary.PatientNotFoundException" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLLibrary\PatientNotFoundException.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="ClinicTrackerBLLibrary.PatientNotFoundException" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLLibrary\PatientNotFoundException.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -393,7 +393,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLTest.AppointmentBLTest" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLTest\AppointmentBLTest.cs" line-rate="0.785714285714286" branch-rate="1" complexity="10">
+        <class name="ClinicTrackerBLTest.AppointmentBLTest" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLTest\AppointmentBLTest.cs" line-rate="0.785714285714286" branch-rate="1" complexity="10">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -523,7 +523,7 @@
             <line number="88" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLTest.DoctorBLTest" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLTest\DoctorBLTest.cs" line-rate="0.772727272727273" branch-rate="1" complexity="16">
+        <class name="ClinicTrackerBLTest.DoctorBLTest" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLTest\DoctorBLTest.cs" line-rate="0.772727272727273" branch-rate="1" complexity="16">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -725,7 +725,7 @@
             <line number="120" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerBLTest.PatientBLTest" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerBLTest\PatientBLTest.cs" line-rate="0.777777777777778" branch-rate="1" complexity="13">
+        <class name="ClinicTrackerBLTest.PatientBLTest" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerBLTest\PatientBLTest.cs" line-rate="0.777777777777778" branch-rate="1" complexity="13">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -895,7 +895,7 @@
     </package>
     <package name="ClinicTrackerDALLibrary" line-rate="0.468599033816425" branch-rate="0.35" complexity="65">
       <classes>
-        <class name="ClinicTrackerDALLibrary.AppointmentRepository" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerDALLibrary\AppointmentRepository.cs" line-rate="0.75609756097561" branch-rate="0.583333333333333" complexity="13">
+        <class name="ClinicTrackerDALLibrary.AppointmentRepository" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerDALLibrary\AppointmentRepository.cs" line-rate="0.75609756097561" branch-rate="0.583333333333333" complexity="13">
           <methods>
             <method name="GenerateId" signature="()" line-rate="0.666666666666667" branch-rate="0.5" complexity="2">
               <lines>
@@ -1011,7 +1011,7 @@
             <line number="67" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerDALLibrary.DoctorRepository" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerDALLibrary\DoctorRepository.cs" line-rate="0.777777777777778" branch-rate="0.583333333333333" complexity="13">
+        <class name="ClinicTrackerDALLibrary.DoctorRepository" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerDALLibrary\DoctorRepository.cs" line-rate="0.777777777777778" branch-rate="0.583333333333333" complexity="13">
           <methods>
             <method name="GenerateId" signature="()" line-rate="0.666666666666667" branch-rate="0.5" complexity="2">
               <lines>
@@ -1135,7 +1135,7 @@
             <line number="69" hits="3" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerDALLibrary.NursesRepository" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerDALLibrary\NursesRepository.cs" line-rate="0" branch-rate="0" complexity="13">
+        <class name="ClinicTrackerDALLibrary.NursesRepository" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerDALLibrary\NursesRepository.cs" line-rate="0" branch-rate="0" complexity="13">
           <methods>
             <method name="GenerateId" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -1249,7 +1249,7 @@
             <line number="67" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerDALLibrary.PatientRepository" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerDALLibrary\PatientRepository.cs" line-rate="0.75609756097561" branch-rate="0.583333333333333" complexity="13">
+        <class name="ClinicTrackerDALLibrary.PatientRepository" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerDALLibrary\PatientRepository.cs" line-rate="0.75609756097561" branch-rate="0.583333333333333" complexity="13">
           <methods>
             <method name="GenerateId" signature="()" line-rate="0.666666666666667" branch-rate="0.5" complexity="2">
               <lines>
@@ -1365,7 +1365,7 @@
             <line number="67" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerDALLibrary.SpecializedDepartmentRepository" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerDALLibrary\SpecializedDepartmentRepository.cs" line-rate="0" branch-rate="0" complexity="13">
+        <class name="ClinicTrackerDALLibrary.SpecializedDepartmentRepository" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerDALLibrary\SpecializedDepartmentRepository.cs" line-rate="0" branch-rate="0" complexity="13">
           <methods>
             <method name="GenerateId" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -1483,7 +1483,7 @@
     </package>
     <package name="ClinicTrackerModelLibrary" line-rate="0.36734693877551" branch-rate="0" complexity="49">
       <classes>
-        <class name="ClinicTrackerModelLibrary.Appointments" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerSolution\Appointments.cs" line-rate="0.588235294117647" branch-rate="1" complexity="11">
+        <class name="ClinicTrackerModelLibrary.Appointments" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerSolution\Appointments.cs" line-rate="0.588235294117647" branch-rate="1" complexity="11">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1601,7 +1601,7 @@
             <line number="57" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerModelLibrary.Doctor" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerSolution\Doctors.cs" line-rate="0.514285714285714" branch-rate="0" complexity="12">
+        <class name="ClinicTrackerModelLibrary.Doctor" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerSolution\Doctors.cs" line-rate="0.514285714285714" branch-rate="0" complexity="12">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1721,7 +1721,7 @@
             <line number="56" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerModelLibrary.Nurses" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerSolution\Nurses.cs" line-rate="0" branch-rate="0" complexity="12">
+        <class name="ClinicTrackerModelLibrary.Nurses" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerSolution\Nurses.cs" line-rate="0" branch-rate="0" complexity="12">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -1841,7 +1841,7 @@
             <line number="58" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerModelLibrary.Patient" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerSolution\Patient.cs" line-rate="0.571428571428571" branch-rate="1" complexity="9">
+        <class name="ClinicTrackerModelLibrary.Patient" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerSolution\Patient.cs" line-rate="0.571428571428571" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1939,7 +1939,7 @@
             <line number="50" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="ClinicTrackerModelLibrary.SpecializedDepartment" filename="C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTrackerSolution\SpecializedDepartment.cs" line-rate="0" branch-rate="1" complexity="5">
+        <class name="ClinicTrackerModelLibrary.SpecializedDepartment" filename="C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 10 - 23.04.2024\ClinicTracker-Unit Testing\ClinicTrackerSolution\SpecializedDepartment.cs" line-rate="0" branch-rate="1" complexity="5">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
