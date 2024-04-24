@@ -41,7 +41,7 @@ namespace ShoppingBLTest
         {
             //Action
             var exception = Assert.Throws<NoCartWithGivenIdException>(() => cartService.DeleteCart(2));
-            //Assert
+            //Asserts
             Assert.AreEqual("Cart with the given Id is not present", exception.Message);
         }
 
