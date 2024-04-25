@@ -1,0 +1,106 @@
+﻿using ShoppingDALLibrary;
+using ShoppingModelLibrary;
+using ShoppingModelLibrary.CartException;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShoppingBL
+{
+    public class CartBL : ICartService
+    {
+        readonly IRepository<int, Cart> _CartRepository;
+        public CartBL(IRepository<int, Cart> cartRepository)
+        {
+            _CartRepository = cartRepository;
+        }
+
+        [ExcludeFromCodeCoverage]
+        public Cart AddCart(Cart cart)
+        {
+            var result = _CartRepository.Add(cart);
+            if (result != null)
+            {
+                return result;
+            }
+            throw new NoCartWithGivenIdException();
+        }
+
+        public Cart DeleteCart(int id)
+        {
+            var result = _CartRepository.Delete(id);
+            return result;
+            //if (result != null)
+            //{
+            //    return result;
+            //}
+            //throw new NoCartWithGivenIdException();
+        }
+
+        public Cart GetCart(int id)
+        {
+            var result = _CartRepository.GetByKey(id);
+            return result;
+            //if (result != null)
+            //{
+            //    return result;
+            //}
+            //throw new NoCartWithGivenIdException();
+        }
+
+        public Cart AddCartItem(CartItem item)
+        {
+            var result = _CartRepository.GetByKey(item.CartId);
+            List<CartItem> List = result.CartItems;
+            if(List == null)
+            {
+                result.CartItems = new List<CartItem>();
+                result.CartItems.Add(item);
+            }
+            else
+            {
+                result.CartItems.Add(item);
+            }
+            //if (List == null || List.Count < 5)
+            //{
+            //    result.CartItems = new List<CartItem>();
+            //    result.CartItems.Add(item);
+            //}
+            var result2 = _CartRepository.Update(result);
+            return result2;
+        }
+        public double CustomerPurchase(int id)
+        {
+            var result = _CartRepository.GetByKey(id);
+            if (result != null)
+            {
+                List<CartItem> List = result.CartItems;
+                if (List == null)
+                {
+                    return 0;
+                }
+                double price = 0;
+                for (int i = 0; i < List.Count; i++)
+                {
+                    price = price + List[i].Price;
+                }
+                if (price < 100)
+                {
+                    return price + 100;
+                }
+                else if (List.Count == 3 && price >= 1500)
+                {
+                    return price - (price * 5 % 100);
+                }
+                else
+                {
+                    return List.Count();
+                }
+            }
+            throw new NoCartWithGivenIdException();
+        }
+    }
+}

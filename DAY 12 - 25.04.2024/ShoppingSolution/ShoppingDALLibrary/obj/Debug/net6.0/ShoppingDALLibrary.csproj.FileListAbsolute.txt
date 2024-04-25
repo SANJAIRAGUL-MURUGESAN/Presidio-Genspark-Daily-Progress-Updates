@@ -1,0 +1,45 @@
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.deps.json
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\Shopping.AA0D79B9.Up2Date
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\refint\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.pdb
+C:\Users\VC\Desktop\NEw\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ref\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\refint\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.pdb
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.deps.json
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\Shopping.AA0D79B9.Up2Date
+C:\Users\VC\Desktop\DAY 11 - 24.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ref\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.deps.json
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingDALLibrary.pdb
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.dll
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\bin\Debug\net6.0\ShoppingModelLibrary.pdb
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\Shopping.AA0D79B9.Up2Date
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\refint\ShoppingDALLibrary.dll
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.pdb
+C:\Users\VC\Desktop\DAY 12 - 25.04.2024\ShoppingSolution\ShoppingDALLibrary\obj\Debug\net6.0\ref\ShoppingDALLibrary.dll
