@@ -88,7 +88,7 @@ namespace ShoppingBL
                 }
                 else
                 {
-                    return List.Count();
+                    return price;
                 }
             }
             throw new NoCartWithGivenIdException();
