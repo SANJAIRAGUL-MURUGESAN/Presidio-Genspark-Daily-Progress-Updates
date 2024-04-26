@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AFDE51E-363B-42A3-BF65-57E3D2A8CF18}|ShoppingBL\\ShoppingBL.csproj|c:\\users\\vc\\desktop\\day 12 - 25.04.2024\\shoppingsolution\\shoppingbl\\cartbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AFDE51E-363B-42A3-BF65-57E3D2A8CF18}|ShoppingBL\\ShoppingBL.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 12 - 25.04.2024\\shoppingsolution\\shoppingbl\\cartbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AFDE51E-363B-42A3-BF65-57E3D2A8CF18}|ShoppingBL\\ShoppingBL.csproj|solutionrelative:shoppingbl\\cartbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3DC092-0495-4AE5-8291-CED68FE3EA5B}|ShoppingBLTest\\ShoppingBLTest.csproj|c:\\users\\vc\\desktop\\day 12 - 25.04.2024\\shoppingsolution\\shoppingbltest\\cartbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3DC092-0495-4AE5-8291-CED68FE3EA5B}|ShoppingBLTest\\ShoppingBLTest.csproj|solutionrelative:shoppingbltest\\cartbltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9373507F-AB81-4B4E-B04D-03F28A3BDA70}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|c:\\users\\vc\\desktop\\day 12 - 25.04.2024\\shoppingsolution\\shoppingmodellibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9373507F-AB81-4B4E-B04D-03F28A3BDA70}|ShoppingModelLibrary\\ShoppingModelLibrary.csproj|solutionrelative:shoppingmodellibrary\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingModelLibrary\\CartItem.cs",
-              "RelativeDocumentMoniker": "ShoppingModelLibrary\\CartItem.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingModelLibrary\\CartItem.cs",
-              "RelativeToolTip": "ShoppingModelLibrary\\CartItem.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:38:25.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CartBL.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\CartBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\CartBL.cs",
               "RelativeDocumentMoniker": "ShoppingBL\\CartBL.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\CartBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\CartBL.cs",
               "RelativeToolTip": "ShoppingBL\\CartBL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAJAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowEkAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T10:34:37.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartBLTest.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBLTest\\CartBLTest.cs",
-              "RelativeDocumentMoniker": "ShoppingBLTest\\CartBLTest.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBLTest\\CartBLTest.cs",
-              "RelativeToolTip": "ShoppingBLTest\\CartBLTest.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAIwE4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T10:35:45.677Z",
               "EditorCaption": ""
             }
           ]

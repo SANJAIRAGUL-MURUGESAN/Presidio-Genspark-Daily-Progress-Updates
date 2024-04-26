@@ -52,9 +52,9 @@ namespace ShoppingFE
             //{
             //    Console.WriteLine(item);
             //}
-            int[] numbers = { 89, 78, 23, 546, 787, 98, 11, 3 };
+            int[] Numbers = { 89, 78, 23, 546, 787, 98, 11, 3 };
 
-            int[] evenNumebrs = numbers.EvenCatch();
+            int[] evenNumebrs = Numbers.EvenCatch();
             foreach (int n in evenNumebrs)
                 Console.WriteLine(n);
             string message = "Hello World";

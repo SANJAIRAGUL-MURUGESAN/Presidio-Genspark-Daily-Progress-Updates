@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj",
+      "projectUniqueName": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj",
       "projectName": "ShoppingBL",
-      "projectPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj",
+      "projectPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj",
       "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\obj\\",
+      "outputPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,8 +76,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
-              "projectPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
+            "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
             }
           }
         }

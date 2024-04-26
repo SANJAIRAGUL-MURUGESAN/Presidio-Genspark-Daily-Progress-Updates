@@ -55,14 +55,20 @@ namespace ShoppingBL
         {
             var result = _CartRepository.GetByKey(item.CartId);
             List<CartItem> List = result.CartItems;
-            if (List == null || List.Count < 5)
+            if (List == null)
             {
-                result.CartItems = new List<CartItem>();
+                result.CartItems = new List<CartItem> { item };
+                //result.CartItems = new List<CartItem>();
+                //result.CartItems.Add(item);
+            }
+            else if(List.Count < 5)
+            {
                 result.CartItems.Add(item);
             }
             var result2 = _CartRepository.Update(result);
             return result2;
         }
+
         public double CustomerPurchase(int id)
         {
             var result = _CartRepository.GetByKey(id);

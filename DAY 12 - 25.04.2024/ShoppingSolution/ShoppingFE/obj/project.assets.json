@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingFE\\ShoppingFE.csproj",
+      "projectUniqueName": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingFE\\ShoppingFE.csproj",
       "projectName": "ShoppingFE",
-      "projectPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingFE\\ShoppingFE.csproj",
+      "projectPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingFE\\ShoppingFE.csproj",
       "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingFE\\obj\\",
+      "outputPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingFE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,11 +95,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj": {
-              "projectPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj"
+            "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingBL\\ShoppingBL.csproj"
             },
-            "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
-              "projectPath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj"
+            "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj": {
+              "projectPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingModelLibrary\\ShoppingModelLibrary.csproj"
             }
           }
         }

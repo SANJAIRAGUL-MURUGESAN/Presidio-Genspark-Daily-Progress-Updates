@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ktxPYmzFIdQ6po1s6+fiWsGH4n4e95Lg/hpo5zSq6VnnirrHw0f+6ckp8kmYlBScDLt+kqS7BDtuBC1c33xdHg==",
+  "dgSpecHash": "qaQGze80OrSUjl9pdR2VXIFzCJ1rGfg9V7fSJdKcRH4gHfzCLXsXv4Cq9CeEpM9NUIihUBFkbAqqjKjGBS4ZCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VC\\Desktop\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingDALTest\\ShoppingDALTest.csproj",
+  "projectFilePath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 12 - 25.04.2024\\ShoppingSolution\\ShoppingDALTest\\ShoppingDALTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VC\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
