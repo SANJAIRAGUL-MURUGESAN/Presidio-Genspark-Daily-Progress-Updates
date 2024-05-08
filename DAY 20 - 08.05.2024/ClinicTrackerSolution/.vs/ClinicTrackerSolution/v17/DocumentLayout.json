@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D30DD9-C735-4E24-8727-7635BDD3D4B4}|ClinicTracker\\ClinicTracker.csproj|c:\\users\\vc\\desktop\\day 20 - 08.05.2024\\clinictrackersolution\\clinictracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D30DD9-C735-4E24-8727-7635BDD3D4B4}|ClinicTracker\\ClinicTracker.csproj|solutionrelative:clinictracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTracker\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTracker\\Program.cs",
+              "RelativeToolTip": "ClinicTracker\\Program.cs",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAAAJgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:27:34.744Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

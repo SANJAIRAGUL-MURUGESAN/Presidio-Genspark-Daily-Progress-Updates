@@ -16,3 +16,22 @@ C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17
 C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.pdb
 C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.genruntimeconfig.cache
 C:\Users\VC\Desktop\PRESIDIO - DAILY WORK PROGRESS\DAY 7 - 17.04.2024\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ref\ClinicTracker.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\bin\Debug\net6.0\ClinicTracker.exe
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\bin\Debug\net6.0\ClinicTracker.deps.json
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\bin\Debug\net6.0\ClinicTracker.runtimeconfig.json
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\bin\Debug\net6.0\ClinicTracker.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\bin\Debug\net6.0\ClinicTracker.pdb
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\bin\Debug\net6.0\ClinicTrackerModelLibrary.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\bin\Debug\net6.0\ClinicTrackerModelLibrary.pdb
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.AssemblyInfo.cs
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.sourcelink.json
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTr.CA8B4B57.Up2Date
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\refint\ClinicTracker.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.pdb
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ClinicTracker.genruntimeconfig.cache
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 7 - 17.04.2024\ClinicTrackerSolution\ClinicTracker\obj\Debug\net6.0\ref\ClinicTracker.dll
