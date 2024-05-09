@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pcuXTSmmHFr4gMKvm4nrlRlR8P/hyS81CfISzc5csNWK1bMNU1wsO8vXaFFqS7gi1UEwG5nJ2DowYCQMo4z8/g==",
+  "dgSpecHash": "vA8jetfhvQLu44KrbsmXx4sS+77Vg3hrfCPZS9ueQjO3gYeR4ziIvoSIiVtBgSPc2ByUxYNghBfwZ5GUIz/7nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VC\\Desktop\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTracker\\ClinicTracker.csproj",
+  "projectFilePath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTracker\\ClinicTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\VC\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
