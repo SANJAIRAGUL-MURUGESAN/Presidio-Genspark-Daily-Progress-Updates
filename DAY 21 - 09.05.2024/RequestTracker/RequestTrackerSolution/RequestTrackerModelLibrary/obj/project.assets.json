@@ -2018,11 +2018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VC\\Desktop\\NEW\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 21 - 09.05.2024\\RequestTracker\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
       "projectName": "RequestTrackerModelLibrary",
-      "projectPath": "C:\\Users\\VC\\Desktop\\NEW\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
+      "projectPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 21 - 09.05.2024\\RequestTracker\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
       "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VC\\Desktop\\NEW\\RequestTrackerSolution\\RequestTrackerModelLibrary\\obj\\",
+      "outputPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 21 - 09.05.2024\\RequestTracker\\RequestTrackerSolution\\RequestTrackerModelLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

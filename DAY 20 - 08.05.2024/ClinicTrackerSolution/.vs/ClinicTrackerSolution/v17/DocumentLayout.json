@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF0ED5FD-A27A-48BA-A6DB-AB8D582DA7BE}|ClinicTrackerDALLibrary\\ClinicTrackerDALLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackerdallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0ED5FD-A27A-48BA-A6DB-AB8D582DA7BE}|ClinicTrackerDALLibrary\\ClinicTrackerDALLibrary.csproj|solutionrelative:clinictrackerdallibrary\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279525C6-719F-4241-8211-91341841981A}|ClinicTrackerBLLibrary\\ClinicTrackerBLLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackerbllibrary\\doctorbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279525C6-719F-4241-8211-91341841981A}|ClinicTrackerBLLibrary\\ClinicTrackerBLLibrary.csproj|solutionrelative:clinictrackerbllibrary\\doctorbusinesslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0ED5FD-A27A-48BA-A6DB-AB8D582DA7BE}|ClinicTrackerDALLibrary\\ClinicTrackerDALLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackerdallibrary\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0ED5FD-A27A-48BA-A6DB-AB8D582DA7BE}|ClinicTrackerDALLibrary\\ClinicTrackerDALLibrary.csproj|solutionrelative:clinictrackerdallibrary\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0ED5FD-A27A-48BA-A6DB-AB8D582DA7BE}|ClinicTrackerDALLibrary\\ClinicTrackerDALLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackerdallibrary\\model\\dbclinictrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0ED5FD-A27A-48BA-A6DB-AB8D582DA7BE}|ClinicTrackerDALLibrary\\ClinicTrackerDALLibrary.csproj|solutionrelative:clinictrackerdallibrary\\model\\dbclinictrackercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E680287-C204-4269-A130-C9DCAD0E7900}|ClinicTrackerSolution\\ClinicTrackerModelLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackersolution\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E680287-C204-4269-A130-C9DCAD0E7900}|ClinicTrackerSolution\\ClinicTrackerModelLibrary.csproj|solutionrelative:clinictrackersolution\\doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E680287-C204-4269-A130-C9DCAD0E7900}|ClinicTrackerSolution\\ClinicTrackerModelLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackersolution\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E680287-C204-4269-A130-C9DCAD0E7900}|ClinicTrackerSolution\\ClinicTrackerModelLibrary.csproj|solutionrelative:clinictrackersolution\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D30DD9-C735-4E24-8727-7635BDD3D4B4}|ClinicTracker\\ClinicTracker.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D30DD9-C735-4E24-8727-7635BDD3D4B4}|ClinicTracker\\ClinicTracker.csproj|solutionrelative:clinictracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DA0C8D9-28DD-40E3-972B-F095D003BC4C}|ClinicTrackerBLTests\\ClinicTrackerBLTests.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackerbltests\\patientbltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DA0C8D9-28DD-40E3-972B-F095D003BC4C}|ClinicTrackerBLTests\\ClinicTrackerBLTests.csproj|solutionrelative:clinictrackerbltests\\patientbltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{279525C6-719F-4241-8211-91341841981A}|ClinicTrackerBLLibrary\\ClinicTrackerBLLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictrackerbllibrary\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{279525C6-719F-4241-8211-91341841981A}|ClinicTrackerBLLibrary\\ClinicTrackerBLLibrary.csproj|solutionrelative:clinictrackerbllibrary\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93D30DD9-C735-4E24-8727-7635BDD3D4B4}|ClinicTracker\\ClinicTracker.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 20 - 08.05.2024\\clinictrackersolution\\clinictracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93D30DD9-C735-4E24-8727-7635BDD3D4B4}|ClinicTracker\\ClinicTracker.csproj|solutionrelative:clinictracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +54,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerDALLibrary\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "ClinicTrackerDALLibrary\\PatientRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerDALLibrary\\PatientRepository.cs",
+              "RelativeToolTip": "ClinicTrackerDALLibrary\\PatientRepository.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:56:04.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DoctorBusinessLogic.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerBLLibrary\\DoctorBusinessLogic.cs",
+              "RelativeDocumentMoniker": "ClinicTrackerBLLibrary\\DoctorBusinessLogic.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerBLLibrary\\DoctorBusinessLogic.cs",
+              "RelativeToolTip": "ClinicTrackerBLLibrary\\DoctorBusinessLogic.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:54:23.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerDALLibrary\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "ClinicTrackerDALLibrary\\DoctorRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerDALLibrary\\DoctorRepository.cs*",
+              "RelativeToolTip": "ClinicTrackerDALLibrary\\DoctorRepository.cs*",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:52:32.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbClinicTrackerContext.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerDALLibrary\\Model\\dbClinicTrackerContext.cs",
+              "RelativeDocumentMoniker": "ClinicTrackerDALLibrary\\Model\\dbClinicTrackerContext.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerDALLibrary\\Model\\dbClinicTrackerContext.cs",
+              "RelativeToolTip": "ClinicTrackerDALLibrary\\Model\\dbClinicTrackerContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:51:55.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Doctors.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerSolution\\Doctors.cs",
+              "RelativeDocumentMoniker": "ClinicTrackerSolution\\Doctors.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerSolution\\Doctors.cs",
+              "RelativeToolTip": "ClinicTrackerSolution\\Doctors.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:51:16.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Appointments.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerSolution\\Appointments.cs",
+              "RelativeDocumentMoniker": "ClinicTrackerSolution\\Appointments.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerSolution\\Appointments.cs",
+              "RelativeToolTip": "ClinicTrackerSolution\\Appointments.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:51:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IPatientService.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerBLLibrary\\IPatientService.cs",
               "RelativeDocumentMoniker": "ClinicTrackerBLLibrary\\IPatientService.cs",
@@ -38,31 +140,30 @@
               "RelativeToolTip": "ClinicTrackerBLLibrary\\IPatientService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T02:50:34.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T02:50:34.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "PatientBLTests.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerBLTests\\PatientBLTests.cs",
               "RelativeDocumentMoniker": "ClinicTrackerBLTests\\PatientBLTests.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTrackerBLTests\\PatientBLTests.cs",
               "RelativeToolTip": "ClinicTrackerBLTests\\PatientBLTests.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAIEAAABwAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAiwIEAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T02:45:13.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTracker\\Program.cs",
               "RelativeDocumentMoniker": "ClinicTracker\\Program.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 20 - 08.05.2024\\ClinicTrackerSolution\\ClinicTracker\\Program.cs",
               "RelativeToolTip": "ClinicTracker\\Program.cs",
-              "ViewState": "AQIAAMcAAAAAAAAAAAAAAMwAAAANAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAQwMwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T15:27:34.744Z",
               "EditorCaption": ""

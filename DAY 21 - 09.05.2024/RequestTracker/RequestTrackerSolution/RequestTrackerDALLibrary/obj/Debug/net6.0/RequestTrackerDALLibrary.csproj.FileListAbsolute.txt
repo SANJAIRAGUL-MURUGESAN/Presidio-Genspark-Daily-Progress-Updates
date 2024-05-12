@@ -13,3 +13,19 @@ C:\Users\VC\Desktop\NEW\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debu
 C:\Users\VC\Desktop\NEW\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\refint\RequestTrackerDALLibrary.dll
 C:\Users\VC\Desktop\NEW\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.pdb
 C:\Users\VC\Desktop\NEW\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\ref\RequestTrackerDALLibrary.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerDALLibrary.deps.json
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerDALLibrary.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerDALLibrary.pdb
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\bin\Debug\net6.0\RequestTrackerModelLibrary.pdb
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.csproj.AssemblyReference.cache
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.AssemblyInfoInputs.cache
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.AssemblyInfo.cs
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.sourcelink.json
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestT.889816FC.Up2Date
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\refint\RequestTrackerDALLibrary.dll
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\RequestTrackerDALLibrary.pdb
+C:\Users\VC\Desktop\WorkProgress\Presidio-Genspark-Daily-Progress-Updates\DAY 21 - 09.05.2024\RequestTracker\RequestTrackerSolution\RequestTrackerDALLibrary\obj\Debug\net6.0\ref\RequestTrackerDALLibrary.dll
