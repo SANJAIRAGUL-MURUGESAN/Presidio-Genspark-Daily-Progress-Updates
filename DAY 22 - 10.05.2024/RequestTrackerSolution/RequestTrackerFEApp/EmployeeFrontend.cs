@@ -49,7 +49,7 @@ namespace RequestTrackerFEApp
         }
 
         //Employee Login
-        public async Task EmployeeLogin()
+        public async Task<string> EmployeeLogin()
         {
             await Console.Out.WriteLineAsync("Please enter Employee Id");
             int id = Convert.ToInt32(Console.ReadLine());
@@ -57,13 +57,34 @@ namespace RequestTrackerFEApp
             string password = Console.ReadLine() ?? "";
             Employee employee = new Employee() { Password = password, Id = id };
             var result = await employeeBL.Login(employee);
-            if (result)
+            if (result!=null)
             {
                 await Console.Out.WriteLineAsync("Login Success");
             }
             else
             {
                 Console.Out.WriteLine("Invalid username or password");
+            }
+            return result.Role;
+
+        }
+
+        // To Add Request by both Admin and User
+        public async Task AddRequest()
+        {
+            await Console.Out.WriteLineAsync("Please enter request message");
+            string message = Console.ReadLine();
+            await Console.Out.WriteLineAsync("Please enter your id");
+            int id = Convert.ToInt32(Console.ReadLine());
+            Request request = new Request() { RequestMessage = message, RequestRaisedBy = id };
+            var resultadded = requestBL.Add(request);
+            if (resultadded != null)
+            {
+                await Console.Out.WriteLineAsync($"Request Added : {resultadded.Result.RequestNumber}");
+            }
+            else
+            {
+                Console.Out.WriteLine("REquest failed");
             }
         }
 
@@ -89,11 +110,18 @@ namespace RequestTrackerFEApp
                             var requets = await requestBL.GetAllRequests(RequestID);
                             if (requets != null)
                             {
-                                foreach (RequestSolution solution in requets.RequestSolutions)
+                                if (requets.RequestSolutions.Count > 0)
                                 {
-                                    Console.WriteLine("-----------------------------------------------------");
-                                    Console.WriteLine(solution.SolutionDescription);
-                                    Console.WriteLine("-----------------------------------------------------");
+                                    foreach (RequestSolution solution in requets.RequestSolutions)
+                                    {
+                                        Console.WriteLine("-----------------------------------------------------");
+                                        Console.WriteLine(solution.SolutionDescription);
+                                        Console.WriteLine("-----------------------------------------------------");
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("No solution for your Request till Yet!");
                                 }
                             }
                             Console.WriteLine("-----------------------------------------------------");
@@ -206,7 +234,7 @@ namespace RequestTrackerFEApp
             var resultadded = await requestSolutionBL.Add(solution);
             if (resultadded != null)
             {
-                await Console.Out.WriteLineAsync($"Request Added : {resultadded.SolutionId}");
+                await Console.Out.WriteLineAsync($"Solution Added : {resultadded.SolutionId}");
             }
             else
             {

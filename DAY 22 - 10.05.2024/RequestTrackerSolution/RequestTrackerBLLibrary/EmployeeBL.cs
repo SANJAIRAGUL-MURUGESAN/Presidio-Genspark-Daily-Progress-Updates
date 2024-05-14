@@ -15,15 +15,15 @@ namespace RequestTrackerBLLibrary
             IRepository<int, Employee> repo2 = new EmployeeRequestRepository(new RequestTrackerContext());
             _repository2 = repo2;
         }
-        public async Task<bool> Login(Employee employee)
+        public async Task<Employee> Login(Employee employee)
         {
             var emp = await _repository.Get(employee.Id);
             if (emp != null)
             {
                 if (emp.Password == employee.Password)
-                    return true;
+                    return emp;
             }
-            return false;
+            return null;
         }
 
         public async Task<Employee> Register(Employee employee)

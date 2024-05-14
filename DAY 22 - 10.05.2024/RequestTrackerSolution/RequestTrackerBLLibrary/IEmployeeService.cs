@@ -9,7 +9,7 @@ namespace RequestTrackerBLLibrary
 {
     public interface IEmployeeService
     {
-        public Task<bool> Login(Employee employee);
+        public Task<Employee> Login(Employee employee);
         public Task<Employee> Register(Employee employee);
         public Task<IList<Employee>> GetAllEmployees();
 

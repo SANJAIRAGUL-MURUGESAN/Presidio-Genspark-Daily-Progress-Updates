@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|c:\\users\\vc\\desktop\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerfeapp\\employeefrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|solutionrelative:requesttrackerfeapp\\employeefrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B5C5E2-28CD-4349-B4D5-9882301E9DE2}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\users\\vc\\desktop\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerbllibrary\\requestexceptions\\noemployeefoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B5C5E2-28CD-4349-B4D5-9882301E9DE2}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\requestexceptions\\noemployeefoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|c:\\users\\vc\\desktop\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerfeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|solutionrelative:requesttrackerfeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B5C5E2-28CD-4349-B4D5-9882301E9DE2}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\users\\vc\\desktop\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerbllibrary\\requestbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B5C5E2-28CD-4349-B4D5-9882301E9DE2}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\requestbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|c:\\users\\vc\\desktop\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerfeapp\\employeefrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|solutionrelative:requesttrackerfeapp\\employeefrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RequestBL.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestBL.cs",
-              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\RequestBL.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestBL.cs",
-              "RelativeToolTip": "RequestTrackerBLLibrary\\RequestBL.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T14:21:22.692Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NoEmployeeFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestExceptions\\NoEmployeeFoundException.cs",
-              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\RequestExceptions\\NoEmployeeFoundException.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerBLLibrary\\RequestExceptions\\NoEmployeeFoundException.cs",
-              "RelativeToolTip": "RequestTrackerBLLibrary\\RequestExceptions\\NoEmployeeFoundException.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T09:15:31.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "EmployeeFrontend.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\EmployeeFrontend.cs",
               "RelativeDocumentMoniker": "RequestTrackerFEApp\\EmployeeFrontend.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\EmployeeFrontend.cs",
               "RelativeToolTip": "RequestTrackerFEApp\\EmployeeFrontend.cs",
-              "ViewState": "AQIAAOwAAAAAAAAAAAAwwEcAAAAJAAAA",
+              "ViewState": "AQIAAFQBAAAAAAAAAAAAAOwAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T09:07:53.617Z",
+              "WhenOpened": "2024-05-14T10:45:27.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\Program.cs",
               "RelativeDocumentMoniker": "RequestTrackerFEApp\\Program.cs",
               "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\Program.cs",
               "RelativeToolTip": "RequestTrackerFEApp\\Program.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T03:57:07.664Z"
+              "WhenOpened": "2024-05-12T03:57:07.664Z",
+              "EditorCaption": ""
             }
           ]
         }
