@@ -21,11 +21,11 @@ namespace PizzaHutApp.Controllers
         [HttpPost("AddPizza")]
         [ProducesResponseType(typeof(Pizza), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorModel), StatusCodes.Status401Unauthorized)]
-        public async Task<ActionResult<Pizza>> AddPizza(Pizza pizza)
+        public async Task<ActionResult<Pizza>> AddPizza(AddPizzaDTO pizzaDTO)
         {
             try
             {
-                var result = await _pizzaService.AddPizza(pizza);
+                var result = await _pizzaService.AddPizza(pizzaDTO);
                 return result;
             }
             catch (Exception ex)
