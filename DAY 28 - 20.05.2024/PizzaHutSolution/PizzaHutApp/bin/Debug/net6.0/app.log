@@ -1,0 +1,33 @@
+INFO  05:15:55 Now listening on: http://localhost:5094
+INFO  05:15:55 Application started. Press Ctrl+C to shut down.
+INFO  05:15:55 Hosting environment: Development
+INFO  05:15:55 Content root path: C:\Users\VC\Desktop\PizzaHutSolution\PizzaHutApp\
+INFO  05:16:17 Entity Framework Core 6.0.29 initialized 'PizzaHutContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  05:16:19 Executed DbCommand (228ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[CustomerId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[CustomerId] = @__key_0
+INFO  05:18:32 Entity Framework Core 6.0.29 initialized 'PizzaHutContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  05:18:32 Executed DbCommand (18ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[CustomerId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[CustomerId] = @__key_0
+INFO  05:19:38 Now listening on: http://localhost:5094
+INFO  05:19:38 Application started. Press Ctrl+C to shut down.
+INFO  05:19:38 Hosting environment: Development
+INFO  05:19:38 Content root path: C:\Users\VC\Desktop\PizzaHutSolution\PizzaHutApp\
+INFO  05:19:50 Entity Framework Core 6.0.29 initialized 'PizzaHutContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  05:19:52 Executed DbCommand (229ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[CustomerId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[CustomerId] = @__key_0
+INFO  05:21:44 Now listening on: http://localhost:5094
+INFO  05:21:44 Application started. Press Ctrl+C to shut down.
+INFO  05:21:44 Hosting environment: Development
+INFO  05:21:44 Content root path: C:\Users\VC\Desktop\PizzaHutSolution\PizzaHutApp\
+INFO  05:21:56 Entity Framework Core 6.0.29 initialized 'PizzaHutContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.29' with options: None
+INFO  05:21:58 Executed DbCommand (218ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[CustomerId], [u].[Password], [u].[PasswordHashKey], [u].[Status]
+FROM [Users] AS [u]
+WHERE [u].[CustomerId] = @__key_0
+FATAL 05:21:59 User Not Authenticated
