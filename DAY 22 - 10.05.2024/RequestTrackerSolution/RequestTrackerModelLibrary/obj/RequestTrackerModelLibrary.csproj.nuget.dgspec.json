@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj": {}
+    "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj": {
+    "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
         "projectName": "RequestTrackerModelLibrary",
-        "projectPath": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
+        "projectPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj",
         "packagesPath": "C:\\Users\\VC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\obj\\",
+        "outputPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

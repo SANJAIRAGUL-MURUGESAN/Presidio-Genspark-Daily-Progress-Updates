@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\",
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|c:\\users\\vc\\desktop\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerfeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|solutionrelative:requesttrackerfeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93B5C5E2-28CD-4349-B4D5-9882301E9DE2}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B5C5E2-28CD-4349-B4D5-9882301E9DE2}|RequestTrackerBLLibrary\\RequestTrackerBLLibrary.csproj|solutionrelative:requesttrackerbllibrary\\employeebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|c:\\users\\vc\\desktop\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerfeapp\\employeefrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFEE18CD-64DB-421D-B567-B85160D92B64}|RequestTrackerFEApp\\RequestTrackerFEApp.csproj|solutionrelative:requesttrackerfeapp\\employeefrontend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EE32831-5ED8-407C-B8DE-B959467DB41A}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerdallibrary\\employeerequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE32831-5ED8-407C-B8DE-B959467DB41A}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\employeerequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE32831-5ED8-407C-B8DE-B959467DB41A}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackerdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE32831-5ED8-407C-B8DE-B959467DB41A}|RequestTrackerDALLibrary\\RequestTrackerDALLibrary.csproj|solutionrelative:requesttrackerdallibrary\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackermodellibrary\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackermodellibrary\\requestsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\requestsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|c:\\users\\vc\\desktop\\workprogress\\presidio-genspark-daily-progress-updates\\day 22 - 10.05.2024\\requesttrackersolution\\requesttrackermodellibrary\\solutionfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D762DD-65F9-4329-8BDE-6E274CD4DB41}|RequestTrackerModelLibrary\\RequestTrackerModelLibrary.csproj|solutionrelative:requesttrackermodellibrary\\solutionfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeFrontend.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\EmployeeFrontend.cs",
-              "RelativeDocumentMoniker": "RequestTrackerFEApp\\EmployeeFrontend.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\EmployeeFrontend.cs",
-              "RelativeToolTip": "RequestTrackerFEApp\\EmployeeFrontend.cs",
-              "ViewState": "AQIAAFQBAAAAAAAAAAAAAOwAAABDAAAA",
+              "DocumentIndex": 0,
+              "Title": "EmployeeBL.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "RelativeDocumentMoniker": "RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "RelativeToolTip": "RequestTrackerBLLibrary\\EmployeeBL.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:45:27.766Z",
+              "WhenOpened": "2024-05-24T03:53:55.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\Program.cs",
-              "RelativeDocumentMoniker": "RequestTrackerFEApp\\Program.cs",
-              "ToolTip": "C:\\Users\\VC\\Desktop\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerFEApp\\Program.cs",
-              "RelativeToolTip": "RequestTrackerFEApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerDALLibrary\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerDALLibrary\\EmployeeRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T03:57:07.664Z",
+              "WhenOpened": "2024-05-24T03:51:11.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerDALLibrary\\EmployeeRequestRepository.cs",
+              "RelativeDocumentMoniker": "RequestTrackerDALLibrary\\EmployeeRequestRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerDALLibrary\\EmployeeRequestRepository.cs",
+              "RelativeToolTip": "RequestTrackerDALLibrary\\EmployeeRequestRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T03:45:09.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\Employee.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Employee.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\Employee.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\Employee.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T10:53:55.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\Request.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\Request.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\Request.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\Request.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T10:55:13.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestSolution.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestSolution.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\RequestSolution.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\RequestSolution.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\RequestSolution.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA7wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T10:55:16.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SolutionFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\SolutionFeedback.cs",
+              "RelativeDocumentMoniker": "RequestTrackerModelLibrary\\SolutionFeedback.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\WorkProgress\\Presidio-Genspark-Daily-Progress-Updates\\DAY 22 - 10.05.2024\\RequestTrackerSolution\\RequestTrackerModelLibrary\\SolutionFeedback.cs",
+              "RelativeToolTip": "RequestTrackerModelLibrary\\SolutionFeedback.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T10:55:24.807Z",
               "EditorCaption": ""
             }
           ]

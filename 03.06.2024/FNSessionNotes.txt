@@ -1,0 +1,25 @@
+---------------------------------------
+HTML -> To structure the web page
+<p> -> It is tag
+<p>Hello</p> -> It is element(In Whole)
+---------------------------------------
+<html>
+<head>
+...
+</head>
+<body>
+...
+</body>
+</html>
+-------------------------------------------------
+Types of Tags:
+1) Paired 2) Unpaired
+Paired : Will have closing tags (eg) : <p></p>
+Unpaired : Will not have closing atgs (eg) : <br>  
+-------------------------------------------------
+<!DOCTYPE html> -> It refers what type of document
+it is...
+-------------------------------------------------
+<head> -> It contains all the information of the
+page
+-------------------------------------------------
