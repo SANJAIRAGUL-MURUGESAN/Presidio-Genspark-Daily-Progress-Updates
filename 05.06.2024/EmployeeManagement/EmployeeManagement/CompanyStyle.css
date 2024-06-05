@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    color: maroon;
+    background-color: pink;
+}
+.empcard{
+    position: relative;
+    float: left;
+    height: 600px;
+    width: 300px;
+    border: solid 2px wheat;
+    margin:5px 10px;
+}
+.empimg{
+    padding: 10px;
+    object-fit: fill;
+    height: 200px;
+    width: 275px;
+}
+.empcardc{
+    padding: 5px;
+    text-align: center;
+}
+.empcard h2{
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.EmpForm{
+    width: 55%;
+    margin-left: 260px;
+    position: relative;
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
+}
+
+.EmpForm form{
+    display: flex; 
+    flex-direction: column; 
+    margin: 1rem auto; 
+    width: 80%;
+}
+
+.EmpForm label{
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    font-size: 20px;
+}
+
+.EmpForm input{
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    width: 300px;
+}
+
+.EmpForm button{
+    width: 500px;
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-top: 1rem;
+}
