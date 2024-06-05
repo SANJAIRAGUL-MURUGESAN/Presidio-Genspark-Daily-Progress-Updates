@@ -9,109 +9,48 @@
  
 <body>
     <!--Header(start)-->
-    <table id="header" border="0"
-           width="100%" aria-hidden="false"
-           style="background-color: #87CEFA;" >
-        <tr>
-            <td>
-                <table border="0" cellpadding="15"
-                       cellspacing="0" width="90%"
-                       align="center">
-                    <tr>
-                        <td>
-                        </td>
-                        <td>
-                            <font face="Times New Roman" size="6">
-                                <b>SanjaiRagulM</b>
-                            </font>
-                        </td>
-                        <td width="15%"> 
-                        </td>
-                        <td>
-                            <a href="#home"
-                               style="text-decoration:none">
-                                <font face="Times New Roman"
-                                      size="5" color=black>
-                                    Home
-                                </font>
-                            </a>
-                        </td>
-                        <td>
-                            |
-                        </td>
- 
-                        <td>
-                            <a href="#about"
-                               style="text-decoration:none">
-                                <font face="Times New Roman"
-                                      size="5" color=black>
-                                    About
-                                </font>
-                            </a>
-                        </td>
-                        <td>
-                            |
-                        </td>
-                        <td>
-                            <a href="#projects"
-                               style="text-decoration:none">
-                                <font face="Times New Roman"
-                                      size="5" color=black>
-                                    Projects
-                                </font>
-                            </a>
-                        </td>
-                        <td>
-                            |
-                        </td>
-                        <td>
-                            <a href="#achievements"
-                               style="text-decoration:none">
-                                <font face="Times New Roman"
-                                      size="5" color=black>
-                                    Achievements
-                                </font>
-                            </a>
-                        </td>
-                        <td>
-                            |
-                        </td>
-                        <td>
-                            <a href="#contact"
-                               style="text-decoration:none">
-                                <font face="Times New Roman"
-                                      size="5" color=black>
-                                    Contact
-                                </font>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <nav>
+        <a href="#" class="logo">Sanjai Ragul M</a>
+        <ul class="nav-links">
+          <li><a href="flex-container">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="projects">Projects</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+          <a href="#">Menu</a>
+        </div>
+      </nav>
+      
+    
     <!--Header(end)-->
 
      <!--About(Start)-->
-     <section class="about" id="about">
-        <h1>About Me</h1>
-        <p style="font-weight: bold; font-size: 20px;">
-          Associate Engineer Intern @ Presidio Solutions
-          </p>
-        <div class="about-info">
-            <div class="about-img">
-                <img src="./Media/Images/sanjai.jpg"  alt="Sanjai Image">
-            </div>
-            <div>
-            <p>Greetings! I'm Sanjai Ragul Murugesan, a passionate Full Stack Developer known for my blend of technical acumen and collaborative spirit. With a foundation built on 3+ years of experience in Software Development, I've honed my skills in Product Development, Team Management and Leadership.<br/>
-                My approach to work is characterized by a commitment to excellence and a knack for turning challenges into opportunities. Beyond my professional endeavors, I'm recognized for my Leadership skills, adaptability, creativity.
+     <div class="flex-container">
+        <div class="about-img">
+            <img src="./Media/Images/sanjai.jpg" alt="Sanjai Image">
+          </div>
+          <div class="about-text">
+            <h1>About Me</h1>
+            <p style="font-weight: bold; font-size: 1rem;">Associate Engineer Intern @ Presidio Solutions</p>
+            <p>
+              Greetings! I'm Sanjai Ragul Murugesan, a passionate Full Stack Developer known for
+              my blend of technical acumen and collaborative spirit. With a foundation built
+              on 3+ years of experience in Software Development, I've honed my skills in Product
+              Development, Team Management, and Leadership. My approach to work is characterized
+              by a commitment to excellence and a knack for turning challenges into opportunities.
+              Beyond my professional endeavors, I'm recognized for my Leadership skills,
+              adaptability, and creativity.
             </p>
-            </div>
-        </div>
-    </section>
+          </div>
+      </div>
+
+      
+      
     <!--About(End)-->
     
     <!--Skill(Start)-->
+    <div class="flex-container">
     <section class="about" id="about">
         <h1>Technical Toolbox</h1>
         <div class="about-info">
@@ -157,11 +96,13 @@
             </div>
         </div>
     </section>
+</div>
     <!--Skill(End)-->
     
  
  
     <!--Projects(start)-->
+    <div class="flex-container">
     <table id="projects" border="0" width="100%"
         cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
         <tr>
@@ -344,10 +285,11 @@
             </td>
         </tr>
     </table>
+</div>
     <!--Projects(end)-->
 
      <!--Achievement(start)-->
-     <table id="achievements" border="0" width="100%"
+     <div class="flex-container">     <table id="achievements" border="0" width="100%"
      cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
      <tr>
          <td>
@@ -394,12 +336,16 @@
          </td>
      </tr>
  </table>
+</div>
+
       <!--Achievement(end)-->
  
  
     <!--Contact(start)-->
-    <h1 id="contact" style="text-align: center; font-size: 30px;"> Contact Me</h1>
+
+    <div class="flex-container">
     <form style="display: flex; flex-direction: column; margin: 1rem auto; width: 50%;">
+        <h1 id="contact" style="text-align: center; font-size: 30px;"> Contact Me</h1>
         <label for="name" style="font-weight: bold; margin-bottom: 5px; font-size: 20px;">Name:</label>
         <input type="text" id="name" name="name" placeholder="Your Name" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
         <label for="email" style="font-weight: bold; margin-bottom: 5px;font-size: 20px;">Email:</label>
@@ -408,13 +354,16 @@
         <textarea id="message" name="message" rows="5" placeholder="Write your message here..." style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
         <input type="submit" value="Send" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-top: 1rem;">
     </form>
+</div>
     <!--Contact(end)-->
 
     <!--Footer(start)-->
+    <!-- <div class="flex-container"> -->
     <footer>
         <p>Owned By : Sanjai Ragul M<br>
         <a href="sanjairagul@gmail.com">sanjajragul@gmail.com</a></p>
       </footer>
+    <!-- </div> -->
     <!--Footer(end)--> 
 </body>
  
