@@ -1,0 +1,309 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Convert | Export html Table to CSV & EXCEL File</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     <style>
+        input[type=text] {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        }
+     </style>
+    </head>
+ 
+ <body>
+     <main class="table" id="customers_table">
+         <section class="table__header">
+             <div class="input-group">
+                <button style="margin-left: 25px;"><i style="font-size:20px" class="fa">&#xf0b0;</i></button>
+                <input style="margin-left: 10px;" type="text" name="search" placeholder="Search..">
+             </div>
+             <button style="background-color: rgb(37, 154, 232); width: 120px; height: 30px; color: white; border-radius: 10px; margin-right: 20px; font-size: 15px; outline: none;">+ Add Customer</button>
+         </section>
+         <section class="table__body">
+             <table>
+                 <thead>
+                     <tr>
+                        <th> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+                         <th > <strong>#</strong><div class="fa fa-fw fa-sort"></div></th>
+                         <th> NAME <div class="fa fa-fw fa-sort"></div></th>
+                         <th> DESCRIPTION </th>
+                         <th> STATUS </th>
+                         <th> RATE</th>
+                         <th> BALANCE </th>
+                         <th> DEPOSIT </th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 1 </td>
+                         <td> Ann Culhane <br>  5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 2 </td>
+                         <td> Ahmad Rosser <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status paid">Paid</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: rgb(26, 183, 99);  text-align: right;">-$270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 3 </td>
+                         <td> Zain Calzoni <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$20.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 4 </td>
+                         <td> Zain Calzoni <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status Inactive">Inactive</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: rgb(26, 183, 99);  text-align: right;">+$600.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 5 </td>
+                         <td> Kaiya Vetrovs <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: rgb(26, 183, 99);  text-align: right;">+$600.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 6 </td>
+                         <td> Ryan  Westervelt <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status paid">Paid</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 7 </td>
+                         <td> Corey Stanton<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status due">Due</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: rgb(26, 183, 99);  text-align: right;">$30.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 8 </td>
+                         <td> Adison Aminoff<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">$-270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 9 </td>
+                         <td> Alfred Aminoff <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status Inactive">Inactive</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: rgb(26, 183, 99);  text-align: right;">+$460.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 10 </td>
+                         <td> Allison Botosh<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="text-align: right;">$0.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 11 </td>
+                         <td> Tatiana Mango <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status paid">Paid</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 12 </td>
+                         <td> Phillip Stanton<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: rgb(26, 183, 99);  text-align: right;">$270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 13 </td>
+                         <td> Craig Lipshutz<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status due">Due</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$20.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 14 </td>
+                         <td> Wilson Dorwart <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status paid">Paid</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color:  rgb(26, 183, 99);  text-align: right;">$600.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 15 </td>
+                         <td> Zain Lubin<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$350.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 16 </td>
+                         <td> Abram Bothman <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status Inactive">Inactive</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 17 </td>
+                         <td> Omar Levin <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status paid">Paid</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color:  rgb(26, 183, 99);  text-align: right;">$30.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 18 </td>
+                         <td> Haylie Donin<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 19 </td>
+                         <td> Brandon Dokidis <br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status paid">Paid</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="color:  rgb(26, 183, 99);  text-align: right;">$.460 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <tr>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                         <td> 20 </td>
+                         <td> Wilson Vetrovs<br> 5684236527 </td>
+                         <td> Lorem ipsum dolor sit amet,<br> consectutur adipiscing elit. Nula...</td>
+                         <td>
+                             <p class="status open">Open</p>
+                         </td>
+                         <td style="text-align: right;">$70.00 <br> CAD </td>
+                         <td style="text-align: right;">-$0.00 <br> CAD </td>
+                         <td style="text-align: right;">-$500.00 <br> CAD </td>
+                     </tr>
+                     <hr style="color: black;">
+                     <th>1-10 of 97</th>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <th colspan="2">Rows Per Page <input type="number" id="quantity" name="quantity" min="1" max="5"></th>
+                     <th><button style="width: 25px;"><</button> 1/12 <button  style="width: 25px;">></button></th>
+                    </tbody>
+             </table>
+         </section>
+     </main>
+     <script src="script.js"></script>
+ 
+ </body>
+ 
+ </html>
