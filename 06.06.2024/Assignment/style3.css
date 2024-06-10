@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: Montserrat;
 }
+
 @media print {
  .table, .table__body {
   overflow: visible;
@@ -181,12 +182,54 @@ tbody tr.hide td img {
     td:not(:first-of-type) {
         min-width: 12.1rem;
     }
+    table, th, td{
+        text-align: left;
+    }
 }
 
 thead th:hover {
     color: #2c1dcb;
 }
 
+.dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: white; 
+    list-style: none; 
+    padding: 0; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  tbody tr:hover .dropdown-menu,
+  .dropdown-container.active .dropdown-menu {
+    display: block; 
+  }
+  
 
-
-
+  .dropdown-menu li {
+    padding: 5px 10px; 
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none; 
+    color: black; 
+  }
+  
+  /* .dropdown-close {
+    display: none; 
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  } */
+  
+  /* .dropdown-container.active .dropdown-close {
+    display: block; 
+  }
+   */

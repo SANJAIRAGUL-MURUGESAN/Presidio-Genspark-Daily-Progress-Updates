@@ -1,12 +1,13 @@
  <!DOCTYPE html>
  <html lang="en">
- 
+
  <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Table</title>
-     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="style3.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
      <style>
@@ -19,16 +20,16 @@
         font-size: 16px;
         background-color: white;
         background-image: url('searchicon.png');
-        background-position: 10px 10px; 
+        background-position: 10px 10px;
         background-repeat: no-repeat;
         padding: 12px 20px 12px 40px;
         }
      </style>
     </head>
- 
+
  <body>
      <main class="table" id="customers_table">
-         <section class="table__header">
+         <section class="table__header" >
              <div class="input-group">
                 <button style="margin-left: 25px;"><i style="font-size:20px" class="fa">&#xf0b0;</i></button>
                 <input style="margin-left: 10px;" type="text" name="search" placeholder="Search..">
@@ -37,7 +38,7 @@
          </section>
          <section class="table__body">
              <table>
-                 <thead>
+                 <thead >
                      <tr>
                         <th> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
                          <th > <strong>#</strong><div class="fa fa-fw fa-sort"></div></th>
@@ -47,6 +48,7 @@
                          <th> RATE</th>
                          <th> BALANCE </th>
                          <th> DEPOSIT </th>
+                         <th></th>
                      </tr>
                  </thead>
                  <tbody>
@@ -61,6 +63,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -73,6 +82,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: rgb(26, 183, 99);  text-align: right;">-$270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -85,6 +101,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$20.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -97,6 +120,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: rgb(26, 183, 99);  text-align: right;">+$600.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -109,6 +139,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: rgb(26, 183, 99);  text-align: right;">+$600.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -121,6 +158,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -133,6 +177,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: rgb(26, 183, 99);  text-align: right;">$30.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -145,6 +196,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">$-270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -157,6 +215,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: rgb(26, 183, 99);  text-align: right;">+$460.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -169,6 +234,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="text-align: right;">$0.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -181,6 +253,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="false"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -193,6 +272,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: rgb(26, 183, 99);  text-align: right;">$270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -205,6 +291,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$20.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -217,6 +310,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color:  rgb(26, 183, 99);  text-align: right;">$600.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -229,6 +329,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$350.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -241,6 +348,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -253,6 +367,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color:  rgb(26, 183, 99);  text-align: right;">$30.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -265,6 +386,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color: red;  text-align: right;">-$270.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i><ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -277,6 +405,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="color:  rgb(26, 183, 99);  text-align: right;">$.460 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <tr>
                         <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
@@ -289,6 +424,13 @@
                          <td style="text-align: right;">$70.00 <br> CAD </td>
                          <td style="text-align: right;">-$0.00 <br> CAD </td>
                          <td style="text-align: right;">-$500.00 <br> CAD </td>
+                         <td class="dropdown-container">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i> <ul class="dropdown-menu">
+                              <li><a href="#">View</a></li>
+                              <li><a href="#">Edit</a></li>
+                              <li><a href="#">Delete</a></li>
+                            </ul>
+                          </td>
                      </tr>
                      <hr style="color: black;">
                      <th>1-10 of 97</th>
@@ -302,8 +444,11 @@
              </table>
          </section>
      </main>
-     <script src="script.js"></script>
- 
+     <!-- <script src="script.js"></script> -->
+
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
  </body>
- 
+
  </html>
