@@ -1,0 +1,104 @@
+html {
+    overflow: hidden;
+}
+
+.body-background {
+    background: #2F80ED;
+    position: fixed;
+    inset: 0;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    z-index: -999;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'open sans';
+    height: 100svh;
+}
+
+.row {
+    height: 95%;
+    display: flex;
+    padding: 30px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+}
+
+
+.column1container {
+    width: min(20em, 90%);
+    margin-top: 5px;
+}
+
+.column1container .heading {
+    color: #2F80ED;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+
+.mobile-container {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+.mobile {
+    background: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 85%;
+}
+
+.mobile .open {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    z-index: -999;
+}
+
+.mobile .open img {
+    width: 100%;
+    height: 100%;
+}
+
+.android {
+    top: 10%;
+}
+
+.mobile .mobilefirst {
+    display: flex;
+}
+
+.mobile .mobilefirst img {
+    width: 100%;
+}
+
+@media screen and (width < 700px) {
+    .row {
+        flex-direction: column;
+        gap: 85px;
+    }
+
+    .mobile-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mobile {
+        position: relative;
+        min-height: 100%;
+        top: 0px ;
+        bottom: 100%;
+    }
+
+
+}
