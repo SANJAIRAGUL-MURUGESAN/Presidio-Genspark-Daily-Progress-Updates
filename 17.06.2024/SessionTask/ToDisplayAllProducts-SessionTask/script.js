@@ -2,7 +2,7 @@ const productsContainer = document.getElementById('products-container');
 const pagination = document.getElementById('pagination');
 
 async function calculatetotal() {
-    const response = await fetch('https://dummyjson.com/products');
+    const response = await fetch('https://dummyjson.com/quotes');
     const data = await response.json();
     console.log("Total products:", data.total);
     return data.total;

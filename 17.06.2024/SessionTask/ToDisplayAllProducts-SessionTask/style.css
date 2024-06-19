@@ -30,6 +30,7 @@ h3,h5{
     color: rgb(0, 91, 228);
 }
 
+
 @media (max-width: 768px) {
     #pagination {
       flex-wrap: wrap; /* Wrap pagination links on smaller screens */
