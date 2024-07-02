@@ -1,0 +1,196 @@
+1) QUESTION1 : Longest Substring Without Repeating Characters
+
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        
+        if len(s) == 1: return 1
+
+        count, s_result = 0, ''
+
+        for i in s:
+            if i not in s_result:
+                s_result += i
+            else:
+                s_result = s_result[s_result.index(i)+1:] + i
+
+            if len(s_result) > count:
+                count = len(s_result)
+        
+        return count
+
+2) QUESTION2 : Zigzag Conversion
+
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+            if numRows == 1: return s
+            rows = [""] * numRows
+            controller = True
+            tracker = 0
+
+            for letter in s:
+                rows[tracker] += letter
+                if tracker == numRows - 1: controller = False
+                if tracker == 0: controller = True
+                if controller: tracker += 1
+                else: tracker -= 1
+
+            converted_string = ""
+
+            for word in rows:
+                converted_string += word
+                
+            return converted_string
+
+3) QUESTION3 : 3SUM CLOSEST
+
+class Solution:
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
+        nums.sort()
+        result, n = float('inf'), len(nums)
+        for i in range(n-2):
+            S1 = nums[i] + nums[i+1] + nums[i+2]
+            S2 = nums[i] + nums[n-2] + nums[n-1]
+            entry= [result, S1, S2]
+            result = min(entry, key = lambda x: abs(x-target))            
+            if S1 <= target <= S2:
+                left, right = i+1, n-1
+                while left < right:
+                    S = nums[i] + nums[left] + nums[right]
+                    entry= [result, S]
+                    result = min(entry, key = lambda x: abs(x-target))
+                    if S == target:
+                        return target
+                    elif S < target:
+                        left += 1
+                    else:
+                        right -= 1
+        return result
+
+4) QUESTION4 : Generate Parentheses
+
+class Solution(object):
+    def generateParenthesis(self, n):
+        answer=[]
+        def recurse(s,oLeft,cLeft):
+            if oLeft==0 and cLeft==0:
+                answer.append(s)
+                return 
+            if oLeft>0:
+                recurse(s+'(', oLeft-1, cLeft)
+            if oLeft<cLeft and cLeft>0:
+                recurse(s+')', oLeft, cLeft-1)
+                
+        recurse('(',n-1,n)
+        return answer
+        
+5) QUESTION5 : Multiply Strings
+
+class Solution(object):
+    def multiply(self, num1, num2):
+       n1 = int(num1)
+       n2 =int(num2)
+       product = n1*n2
+       answer = str(product)
+       return answer
+        
+6) QUESTION6 : Group Anagrams
+
+class Solution(object):
+    def groupAnagrams(self, strs):
+        worddictionary = {}
+        answer = []
+
+        for string in strs:
+            splitedstring = list(string)
+            splitedstring.sort()
+            reversestring = "".join(splitedstring)
+            if reversestring in worddictionary:
+                worddictionary[reversestring].append(string)
+            else:
+                worddictionary[reversestring] = [string]
+        
+        for i in worddictionary.values():
+            answer.append(i)
+        
+        return answer
+        
+7) QUESTION7 : Multiply Strings
+
+class Solution(object):
+    def multiply(self, num1, num2):
+       n1 = int(num1)
+       n2 =int(num2)
+       product = n1*n2
+       answer = str(product)
+       return answer
+        
+8) QUESTION8 : JumpGame
+
+class Solution(object):
+    def canJump(self, nums):
+        n = len(nums)
+        if len(nums) == 1:
+            return True
+        cur_num = nums[0]
+        for i in range(n-1):
+            if nums[i] > cur_num:
+                cur_num = nums[i]
+            if cur_num == 0:
+                return False
+            cur_num -= 1
+        return True
+        
+9) QUESTION9 : UniquePaths
+
+class Solution(object):
+    def uniquePaths(self, m, n):
+        if m == 0 or n == 0:
+            return 0
+
+        if m == 1 and n == 1:
+            return 1
+
+        rights = self.uniquePaths(m - 1, n)
+        downs = self.uniquePaths(m, n - 1)
+        
+        return rights + downs
+        
+10)QUESTION1O : Text Justification (Referred Google)
+
+class Solution(object):
+    def fullJustify(self, words, maxWidth):
+        line=[]
+        lines=[]
+        line_length=0
+    
+        for word in words:
+            if len(line)+ len(word) + line_length <= maxWidth:
+                line.append(word)
+                line_length+=len(word)
+            else:
+                line_length=len(word)
+                lines.append(line)
+                line=[word]
+        lines.append(line)
+
+        result=[]
+        for i in range(len(lines)-1):
+            line=lines[i]
+            total_word_length=sum(len(word) for word in line)
+            total_spaces= maxWidth-total_word_length
+            num_gaps=len(line)-1
+            if num_gaps==0:
+                result.append(line[0]+' ' * total_spaces)
+            else:
+                base_gaps=total_spaces//num_gaps
+                extra_spaces = total_spaces%num_gaps
+                formatted_line=line[0]
+                for j in range(1, len(line)):
+                    space= base_gaps + (1 if j<= extra_spaces else 0)
+                    formatted_line+= ' '*space + line[j]
+                result.append(formatted_line)
+
+        last_line=' '.join(lines[-1])
+        result.append(last_line + ' '* (maxWidth-len(last_line)))
+        return result
+        
