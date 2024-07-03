@@ -1,0 +1,169 @@
+1)QUESTION1 : Find the Runner-Up Score
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    arr1 = set(arr)
+    arr2 = sorted(arr1)
+    print(arr2[-2])
+
+2)QUESTION2 : List Comprehensions
+
+if __name__ == '__main__':
+    alist = []
+    for i in range(int(input())):
+        name = input()
+        score = float(input())
+        alist.append([name, score])
+second_highest = sorted(set([score for name, score in alist]))[1]
+print('\n'.join(sorted([name for name, score in alist if score == second_highest])))
+
+3)QUESTION3 : Finding the percentage
+
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    
+    answerlist = list(student_marks[query_name]) 
+
+    sumvalue = sum(answerlist)
+
+    result = sumvalue/len(answerlist)
+
+    print('%.2f'% result)
+
+4)QUESTION4 : Lists
+
+if __name__ == '__main__':
+    N = int(input())
+
+    List=[];
+
+    for i in range(N):
+
+        command=input().split(); : 
+
+        if command[0] == "insert":
+
+            List.insert(int(command[1]),int(command[2]))
+
+        elif command[0] == "append":
+
+            List.append(int(command[1]))
+
+        elif command[0] == "pop":
+
+            List.pop();
+
+        elif command[0] == "print":
+
+            print(List)
+
+        elif command[0] == "remove":
+
+            List.remove(int(command[1]))
+
+        elif command[0] == "sort":
+
+            List.sort();
+
+        else:
+
+            List.reverse();
+
+5)QUESTION5 : Tuples
+
+if __name__ == '__main__':
+    n = int(input())
+    integer_list = map(int, input().split())
+
+    result = tuple(integer_list)
+
+    print(hash(result));
+
+6)QUESTION6 : SwapCases
+
+def swap_case(s):
+    
+    answer = ""
+
+    for i in s:
+
+        if i.isupper() == True:
+
+            answer+=(i.lower())
+
+        else:
+
+            answer+=(i.upper())
+
+    return answer
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+
+7)QUESTION7 : String Split and Join
+
+
+
+def split_and_join(line):
+    # write your code here
+    
+    split = line.split(" ")
+
+    answer = "-".join(split)
+
+    return(answer)
+
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
+
+8)QUESTION8 : Whats Your Name?
+
+def print_full_name(first, last):
+    # Write your code here
+    print("Hello " + first + " " + last + "! You just delved into python.")
+
+if __name__ == '__main__':
+    first_name = input()
+    last_name = input()
+    print_full_name(first_name, last_name)
+
+9)QUESTION9 : Mutations
+
+def mutate_string(string, position, character):
+    liststring = list(string)
+    liststring[position] = character
+    answer = "".join(liststring)
+    return answer
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+    print(s_new)
+
+10)Question10 : Find a string
+
+def count_substring(string, sub_string):
+    total = 0
+    for i in range(len(string)):
+        if string[i:len(string)].startswith(sub_string):
+            total += 1
+    return total
+
+if __name__ == '__main__':
+    string = input().strip()
+    sub_string = input().strip()
+    
+    count = count_substring(string, sub_string)
+    print(count)
