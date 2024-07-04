@@ -1,0 +1,65 @@
+Microsoft Windows [Version 10.0.19045.4529]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\VC\Desktop\04.07.2024\PostgreTask>docker pull postgres
+Using default tag: latest
+latest: Pulling from library/postgres
+f11c1adaa26e: Pull complete
+76ce212b9153: Pull complete
+919ca406a058: Pull complete
+6b7a1245fe71: Pull complete
+8064ffe06c65: Pull complete
+4b5c59f2d82c: Pull complete
+fe72764b9070: Pull complete
+6ef8e2c0f4d9: Pull complete
+e71fe9d7ff11: Pull complete
+f3225d69190d: Pull complete
+2bf90d17afc8: Pull complete
+d3aee49eb079: Pull complete
+e1e856658919: Pull complete
+95c2c2ef9f02: Pull complete
+Digest: sha256:0aafd2ae7e6c391f39fb6b7621632d79f54068faebc726caf469e87bd1d301c0
+Status: Downloaded newer image for postgres:latest
+docker.io/library/postgres:latest
+
+C:\Users\VC\Desktop\04.07.2024\PostgreTask>docker run --name db -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+84ca91d58a2e80e66fec77c9fe9b728fa39e7b85ee0d111a4e78cde71148029f
+
+postgres=# CREATE DATABASE dbDocker;
+CREATE DATABASE
+postgres=# CREATE TABLE Department (
+Department_ID SERIAL PRIMARY KEY , Department_Name VARCHAR(100) NOT NULL);
+CREATE TABLE
+postgres=# CREATE TABLE Department (
+Department_ID SERIAL PRIMARY KEY , Department_Name VARCHAR(100) NOT NULL);
+ERROR:  relation "department" already exists
+postgres=# ^V^C
+postgres=# CREATE TABLE Employee (Employee_ID SERIAL PRIMARY KEY, Employee_NAME VARCHAR(100) NOT NULL,Age INT,Phone VARCHAR(15),Department_ID INT,FOREIGN KEY (Department_ID) REFERENCES Department(Department_ID));
+CREATE TABLE
+postgres=# CREATE TABLE Salary (Salary_ID SERIAL PRIMARY KEY,Employee_ID INT, Salary DECIMAL(10,2), FOREIGN KEY(EMPLOYEE_ID) REFERENCES Employee(Employee_ID));
+CREATE TABLE
+postgres=# INSERT INTO Department (Department_Name) VALUES ('MATHS'),('ENGLISH'),('TAMIL');
+INSERT 0 3
+postgres=# INSERT INTO Employee (Employee_Name, Age, Phone, Department_ID) VALUES ('Sanjai',22,'12-12-2002'),('Ragul',22,'25-12-2002'),('Presidio',22,'30-12-2002');
+ERROR:  INSERT has more target columns than expressions
+LINE 1: INSERT INTO Employee (Employee_Name, Age, Phone, Department_...
+                                                         ^
+postgres=# INSERT INTO Employee (Employee_Name, Age, Phone, Department_ID) VALUES ('Sanjai',22,'1234567890',1),('Ragul',22,'1234567890',2),('Presidio',22,'1234567890',3);
+INSERT 0 3
+postgres=# INSERT INTO Salary (Employee_ID,Salary) VALUES  (1,50000),(2,30000),(3,80000);
+INSERT 0 3
+postgres=# SELECT e.Employee_Name,e.Age,e.Phone,d.Department_Name,e.Salary FROM Employee e JOIN Department d ON e.Department_ID = d.Department_ID JOIN Salary s ON e.Employe
+e_ID = s.Employee_ID;
+ERROR:  column e.salary does not exist
+LINE 1: ...T e.Employee_Name,e.Age,e.Phone,d.Department_Name,e.Salary F...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "s.salary".
+postgres=# SELECT e.Employee_Name,e.Age,e.Phone,d.Department_Name,s.Salary FROM Employee e JOIN Department d ON e.Department_ID = d.Department_ID JOIN Salary s ON e.Employee_ID = s.Employee_ID;
+ employee_name | age |   phone    | department_name |  salary
+---------------+-----+------------+-----------------+----------
+ Sanjai        |  22 | 1234567890 | MATHS           | 50000.00
+ Ragul         |  22 | 1234567890 | ENGLISH         | 30000.00
+ Presidio      |  22 | 1234567890 | TAMIL           | 80000.00
+(3 rows)
+
+postgres=#
