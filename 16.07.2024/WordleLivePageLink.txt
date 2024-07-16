@@ -1,0 +1,3 @@
+Wordle Live PageLink -> https://agreeable-flower-016456c1e.5.azurestaticapps.net/
+
+Note: Resource Group is Deleted by me so the above mentioned link is the page link once it is live.Now, due to deletion of Resource Group the page is not live now
