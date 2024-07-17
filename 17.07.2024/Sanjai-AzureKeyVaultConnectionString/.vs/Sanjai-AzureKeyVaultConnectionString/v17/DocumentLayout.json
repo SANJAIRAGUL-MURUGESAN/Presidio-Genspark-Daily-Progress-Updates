@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VC\\Desktop\\17.07.2024\\Sanjai-AzureKeyVaultConnectionString\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7ACFA85-B9BB-4B2E-9274-68156D1676AF}|Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj|c:\\users\\vc\\desktop\\17.07.2024\\sanjai-azurekeyvaultconnectionstring\\sanjai-azurekeyvaultconnectionstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7ACFA85-B9BB-4B2E-9274-68156D1676AF}|Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj|solutionrelative:sanjai-azurekeyvaultconnectionstring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7ACFA85-B9BB-4B2E-9274-68156D1676AF}|Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj|c:\\users\\vc\\desktop\\17.07.2024\\sanjai-azurekeyvaultconnectionstring\\sanjai-azurekeyvaultconnectionstring\\sanjai-azurekeyvaultconnectionstring.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7ACFA85-B9BB-4B2E-9274-68156D1676AF}|Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj|solutionrelative:sanjai-azurekeyvaultconnectionstring\\sanjai-azurekeyvaultconnectionstring.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sanjai-AzureKeyVaultConnectionString",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\17.07.2024\\Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj",
+              "RelativeDocumentMoniker": "Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\17.07.2024\\Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj",
+              "RelativeToolTip": "Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-17T08:39:12.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Desktop\\17.07.2024\\Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString\\Program.cs",
+              "RelativeDocumentMoniker": "Sanjai-AzureKeyVaultConnectionString\\Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Desktop\\17.07.2024\\Sanjai-AzureKeyVaultConnectionString\\Sanjai-AzureKeyVaultConnectionString\\Program.cs",
+              "RelativeToolTip": "Sanjai-AzureKeyVaultConnectionString\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:19:41.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sanjai-AzureKeyVaultConnectionString.props" />
+</Project>

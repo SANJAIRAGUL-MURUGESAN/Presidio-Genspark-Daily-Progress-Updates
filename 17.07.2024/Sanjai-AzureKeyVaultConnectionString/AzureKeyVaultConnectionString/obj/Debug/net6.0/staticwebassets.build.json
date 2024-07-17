@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jzPL3G/vX7HJp82U5C4n4fNAKALwmqWH20ZBIVXDiAA=",
+  "Source": "Sanjai-AzureKeyVaultConnectionString",
+  "BasePath": "_content/Sanjai-AzureKeyVaultConnectionString",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
