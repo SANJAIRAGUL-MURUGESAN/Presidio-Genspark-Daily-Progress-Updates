@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Bee Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <div class="game-container">
+            <h1>Spelling Bee Game</h1>
+            <div class="letters-container">
+            </div>
+            <div class="input-container">
+                <div id="selected-word"></div>
+                <button id="submit-word">Submit</button>
+                <button id="clear-word">Clear</button>
+                <button id="refresh-letters">Refresh</button>
+            </div>
+            <div class="score-container">
+                <h2>Score: <span id="score">0</span></h2>
+            </div>
+        </div>
+        <div class="words-container">
+            <div class="progress-bar">
+                <div id="progress-fill"></div>
+                <div id="progress-level">Beginner</div>
+            </div>
+            <h3>Valid Words:</h3>
+            <ul id="words-list">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
